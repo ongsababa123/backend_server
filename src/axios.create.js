@@ -1,7 +1,7 @@
 import Axios from "axios";
 
 const instance = Axios.create({
-    baseURL: 'http://localhost:3001/',
+    baseURL: 'https://dull-puce-parrot-toga.cyclic.app/',
     timeout: 1000,
     headers: {'X-Custom-Header': 'foobar'
     
